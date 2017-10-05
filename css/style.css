@@ -8,8 +8,21 @@ body {
     background-color: #f4f4f4f4;
 }
 
+
+/*
+Global
+*/
+
 .container {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
 }
