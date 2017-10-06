@@ -80,6 +80,7 @@ header a:hover {
     text-align: center;
     color: #ffffff;
     width: 100%;
+    max-width: 100%;
 }
 
 #hero h1 {
@@ -98,15 +99,15 @@ header a:hover {
 }
 
 #social {
-    padding: 15px;
+    padding: 20px 0 0 15%;
     color: #ffffff;
     background: #35424a;
-padding: 40px 0 0 15%;
-clear: both;
+    clear: both;
 }
 
-#social img {
+#social img, #social img a {
     margin: 0 auto;
+    padding-top: 0;
 }
 #social #git {
     float: left;
@@ -130,5 +131,55 @@ padding-right: 30%;
 }
 
 #social {
+    text-align: center;
+}
+
+
+#guides {
+    margin-top: 20px;
+}
+
+#guides .guide {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#guides .guide img {
+    width: 30%;
+    margin-top: 40px;
+}
+
+#guides .html img {
+    min-width: 40%;
+}
+
+#guides .design img {
+    min-width: 45%;
+}
+
+
+
+#guides .html h3 {
+    margin-top: 60px;
+}
+
+#guides .css h3 {
+    margin-top: 45px;
+}
+
+#guides .design h3 {
+    margin-top: 35px;
+}
+
+
+
+
+footer {
+    padding: 20px;
+    margin-top: 150px;
+    color: #ffffff;
+    background-color: #e8491d;
     text-align: center;
 }
