@@ -69,6 +69,21 @@ header a:hover {
     font-weight: bold;
 }
 
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
 
 /**************
     Social
@@ -172,6 +187,23 @@ padding-right: 30%;
 #guides .design h3 {
     margin-top: 35px;
 }
+
+
+/* Article */
+#main-col {
+    float: left;
+    width: 65%;
+}
+
+
+/* SIDEBAR */
+
+#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
 
 
 
